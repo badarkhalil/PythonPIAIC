@@ -25,4 +25,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Deploy website
-      run: surge ./ badarkhalil.surge.sh --token $({serrets.SURGE_SECRET})
+      run: surge ./ badarkhalil.surge.sh --token $({secrets.SURGE_SECRET})
